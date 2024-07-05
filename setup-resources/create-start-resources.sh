@@ -39,7 +39,7 @@ RESOURCE_GROUP_NAME="$USER_NAME-signalr-$RANDOM_STRING"
 az group create \
   --subscription "$SUBSCRIPTION_NAME" \
   --name "$RESOURCE_GROUP_NAME" \
-  --location australiasoutheast
+  --location australiaeast
 
 # Set default resource group
 az configure --defaults group="$RESOURCE_GROUP_NAME"
